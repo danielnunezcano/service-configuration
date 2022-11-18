@@ -1,3 +1,8 @@
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${random.uuid}
+booking:
+  property: Booking Profile Dev
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true

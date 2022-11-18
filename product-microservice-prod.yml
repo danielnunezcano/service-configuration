@@ -1,3 +1,2 @@
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${random.uuid}
+booking:
+  property: Product Profile Prod
