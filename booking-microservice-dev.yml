@@ -3,6 +3,8 @@ booking:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/bookingdb
+    username: admin
+    password: admin
   jpa:
     hibernate:
       ddl-auto: update
